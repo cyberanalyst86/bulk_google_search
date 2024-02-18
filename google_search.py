@@ -28,6 +28,7 @@ def google_search(search_term, output_filename, regex_string):
     MY_SEARCH = search_term
 
     # -----------------------------------API Key and Search ID Throttle-----------------------------------#
+    # -----------------------------------Remove the code necessarily if you only have 1 set of api key-----------------------------------#
 
     api_key1, api_id1, api_key2, api_id2, api_key3, api_id3, api_key4, api_id4 = get_api_key()
 
